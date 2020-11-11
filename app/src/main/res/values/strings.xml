@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Espace Utilisateur</string>
+    <string name="login">Se connecter</string>
+    <string name="logout">Annuler</string>
+    <string name="email">Email :</string>
+    <string name="password">Mot de passe :</string>
+    <string name="Inscri">sinscrire</string>
+    <string name="texto">Veuillez se connecter</string>
+    <string name="texto2">Inscription</string>
+    <string name="pen">Prénom :</string>
+    <string name="nom">Nom :</string>
+    <string name="adress">Adresse :</string>
+    <string name="date_naiss">Date de naissance :</string>
+</resources>
