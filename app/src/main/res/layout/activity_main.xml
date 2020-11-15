@@ -28,7 +28,7 @@
         android:id="@+id/email"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:hint="Tapez votre email"
+        android:hint="@string/tapem"
         android:inputType="textEmailAddress"
         />
     <TextView
@@ -41,7 +41,7 @@
         android:id="@+id/password"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:hint="Tapez votre mot de passe"
+        android:hint="@string/tappass"
         android:inputType="textEmailAddress"
         />
     <RelativeLayout

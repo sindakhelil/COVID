@@ -12,7 +12,6 @@
         android:text="@string/texto2"
         android:textStyle="italic"
         android:textSize="30dp"
-
         android:textColor="@color/red"
         android:gravity="center"/>
 
@@ -25,9 +24,9 @@
     <EditText
         android:id="@+id/pren"
         android:layout_width="fill_parent"
-        android:layout_height="0"
+        android:layout_height="0dp"
         android:layout_weight="1"
-        android:hint="Tapez votre prénom"
+        android:hint="@string/tappren"
         android:inputType="text"
         />
     <TextView
@@ -39,9 +38,9 @@
     <EditText
         android:id="@+id/nom"
         android:layout_width="fill_parent"
-        android:layout_height="0"
+        android:layout_height="0dp"
         android:layout_weight="1"
-        android:hint="Tapez votre nom"
+        android:hint="@string/tapnom"
         android:inputType="text"
         />
     <TextView
@@ -53,9 +52,9 @@
     <EditText
         android:id="@+id/adress"
         android:layout_width="fill_parent"
-        android:layout_height="0"
+        android:layout_height="0dp"
         android:layout_weight="1"
-        android:hint="Tapez votre adresse"
+        android:hint="@string/tapad"
         android:inputType="textPostalAddress"
         />
     <TextView
@@ -67,9 +66,9 @@
     <EditText
         android:id="@+id/date"
         android:layout_width="fill_parent"
-        android:layout_height="0"
+        android:layout_height="0dp"
         android:layout_weight="1"
-        android:hint="Tapez votre date de naissance"
+        android:hint="@string/tapdate"
         android:inputType="date"
         />
     <TextView
@@ -81,9 +80,9 @@
     <EditText
         android:id="@+id/email"
         android:layout_width="fill_parent"
-        android:layout_height="0"
+        android:layout_height="0dp"
         android:layout_weight="1"
-        android:hint="Tapez votre email"
+        android:hint="@string/tapem"
         android:inputType="textEmailAddress"
         />
     <TextView
@@ -95,16 +94,16 @@
     <EditText
         android:id="@+id/password"
         android:layout_width="fill_parent"
-        android:layout_height="0"
+        android:layout_height="0dp"
         android:layout_weight="1"
-        android:hint="Tapez votre mot de passe"
+        android:hint="@string/tappass"
         android:inputType="textEmailAddress"
         />
     <Button
         android:id="@+id/btn3"
         android:text="@string/Inscri"
         android:layout_width="wrap_content"
-        android:layout_height="0"
+        android:layout_height="0dp"
         android:layout_weight="1"
         android:layout_gravity="center"/>
 

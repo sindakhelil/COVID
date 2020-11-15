@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">User area</string>
+    <string name="login">log in</string>
+    <string name="logout">Cancel</string>
+    <string name="email">E-mail :</string>
+    <string name="password">Password:</string>
+    <string name="Inscri">Register</string>
+    <string name="texto">Please log in</string>
+    <string name="texto2">Register</string>
+    <string name="pen">First name:</string>
+    <string name="nom">Last name :</string>
+    <string name="adress">Adress :</string>
+    <string name="date_naiss">Date of Birth :</string>
+    <string name="tappren">Enter your first name</string>
+    <string name="tapnom">Enter your name</string>
+    <string name="tapad">Enter your address</string>
+    <string name="tapdate">Enter your date of birth</string>
+    <string name="tapem">Enter your email</string>
+    <string name="tappass">Enter Your password</string>
+</resources>
