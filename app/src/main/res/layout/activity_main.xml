@@ -44,32 +44,37 @@
         android:hint="Tapez votre mot de passe"
         android:inputType="textEmailAddress"
         />
-    <RelativeLayout
-        android:layout_centerInParent="true"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
-
-        <Button
-            android:id="@+id/btn_login"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/login"
-           />
-
-    <Button
-        android:id="@+id/btn_register"
-        android:text="@string/logout"
-        android:layout_toRightOf="@+id/btn_login"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
-    </RelativeLayout>
-
-
-
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:layout_weight="0.5"
+        android:orientation="horizontal"
+        >
         <Button
             android:id="@+id/btn3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:background="#E12929"
+            android:text="connecter"
+            android:textColor="#FFF"
+            />
+        <Button
+            android:id="@+id/annull"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:background="#E12929"
+            android:text="anuller"
+            android:textColor="#FFF"
+            android:layout_marginHorizontal="15dp"/>
+        <Button
+            android:id="@+id/inscri"
             android:text="@string/Inscri"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"/>
 
+    </LinearLayout>
 </LinearLayout>
